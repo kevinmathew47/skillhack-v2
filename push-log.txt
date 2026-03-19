@@ -1,0 +1,23 @@
+﻿git : remote: fatal: did not receive 
+expected object 
+bbbdb0d29138abba5f4627f11632a6a5947a3e90 
+       
+At line:1 char:1
++ git push -u origin main --force 2>&1 | 
+Out-File -FilePath push-log.tx ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : 
+NotSpecified:     (remote: fatal: 
+...47a3e90        :Strin    g) [], 
+RemoteException
+    + FullyQualifiedErrorId : 
+NativeCommandE    rror
+ 
+error: remote unpack failed: index-pack 
+failed
+To 
+https://github.com/skillhac/skillhac.git
+ ! [remote rejected] main -> main 
+(failed)
+error: failed to push some refs to 'https
+://github.com/skillhac/skillhac.git'
