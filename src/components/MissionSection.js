@@ -62,14 +62,14 @@ export default function MissionSection() {
       id: 1,
       title: "Mission 1: The Tom Cruise Cliff Jump & Cinematic Proof of Concept",
       text: "A custom high-impact prosthetic leg - built from scratch for motocross landings, not walking. Engineered to absorb extreme forces, protect a vulnerable spine, and enable a live cinematic jump in Norway inspired by Mission: Impossible - captured for a documentary with global reach. One jump. Real risk. Real engineering. A blueprint for adaptive action sports worldwide.",
-      image: "/images/5050c3527da97e010b06dcb26f7995b428db0689.png",
+      image: "/images/97bd86a023f47a79ee9ff596f28df44efaaa7448.jpeg",
     },
     {
       id: 2,
       title: "Mission 2: Wingsuit Flight at 42,000ft - Spinal Protection & Survival",
       text: "Wingsuit flight demands perfect bilateral symmetry. Syam has one leg and severe scoliosis - making this mission widely considered impossible. The solution: a hand-controlled mechanical leg that dynamically balances mass and restores aerodynamic control mid-flight, paired with a custom thermal suit and redundant oxygen systems.",
       extraText: "Three years of preparation. Wind tunnel testing in Sweden. Progressive jump validation. And a target of 42,000ft - where aerospace begins.",
-      image: "/images/97bd86a023f47a79ee9ff596f28df44efaaa7448.png",
+      image: "/images/5050c3527da97e010b06dcb26f7995b428db0689.jpeg",
     },
   ];
 

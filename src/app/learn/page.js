@@ -32,7 +32,7 @@ export default function LearnPage() {
     {
       title: "Paragliding",
       description: "Soar with the winds. Get insights into the world of paragliding and how to start your journey into the skies.",
-      image: "/images/paragliding.png",
+      image: "/images/paragliding.jpg",
       whatsappMsg: "Hi Syam, I'm interested in learning more about Paragliding!"
     }
   ];
@@ -48,13 +48,13 @@ export default function LearnPage() {
         <section className="learn-hero-redesign">
           <div className="container">
             <span className="hero-greeting" style={{ color: 'var(--black)', opacity: 0.6 }}>Explore the limits</span>
-            <h1 className="hero-handwritten learn-hero-title" style={{ color: 'var(--yellow)', opacity: 0.6 }}>
+            <h1 className="hero-handwritten learn-hero-title" style={{ color: 'var(--yellow)' }}>
               Learn with me
             </h1>
-            <p className="about-vision-intro" style={{ maxWidth: '650px', margin: '0 auto', color: 'var(--gray-text)' }}>
+            <p className="about-vision-intro" style={{ maxWidth: '750px', margin: '0 auto', color: 'var(--gray-text)', fontSize: '1.2rem' }}>
               Beyond the records and the jumps, my mission is to share the skills and
               mindset that have shaped my life. Whether you are looking for adventure
-              or seeking to push your limits, let&apos;s start the journey.
+              or seeking to push your physical and mental limits, let&apos;s start the journey.
             </p>
           </div>
         </section>

@@ -34,7 +34,7 @@ export default function AboutPage() {
           </div>
           <div className="dual-image-right">
             <img 
-              src="/images/f5c28b894e6208ccd4693cb168026c1801f97429.png" 
+              src="/images/f5c28b894e6208ccd4693cb168026c1801f9742.jpeg" 
               alt="Syam Kumar Skydiving" 
               className="dual-img"
             />
