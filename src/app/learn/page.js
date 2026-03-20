@@ -147,7 +147,7 @@ export default function LearnPage() {
           <div className="sport-container container">
             <div className="sport-grid-2">
               <div className="sport-image-box order-2-mobile">
-                <img src="/images/paragliding.png" alt="Paragliding" className="sport-featured-img" />
+                <img src="/images/paragliding.jpg" alt="Paragliding" className="sport-featured-img" />
               </div>
               <div className="sport-content-box pt-0">
                 <span className="sport-number text-dark">04</span>
