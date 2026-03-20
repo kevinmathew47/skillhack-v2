@@ -26,7 +26,7 @@ export const metadata = {
   description:
     "From 16 surgeries to setting a world record — support Syam Kumar in becoming the first person without a leg to skydive from 45,000 feet.",
   icons: {
-    icon: "/images/logo.jpg",
+    icon: "/images/logo.png",
   },
 };
 
