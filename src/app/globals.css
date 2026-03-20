@@ -624,6 +624,39 @@ img {
   animation: fadeUp 1s ease 0.2s both;
 }
 
+.hero-stats-bar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #000;
+  display: flex;
+  justify-content: space-around;
+  padding: 1.2rem 5vw;
+  z-index: 20;
+}
+
+.hero-stats-item {
+  color: var(--yellow);
+  font-family: var(--font-head);
+  font-weight: 900;
+  font-size: clamp(1.2rem, 2.5vw, 2.2rem);
+  text-transform: capitalize;
+  letter-spacing: -0.01em;
+}
+
+@media (max-width: 768px) {
+  .hero-stats-bar {
+    padding: 1rem 2vw;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .hero-stats-item {
+    font-size: 1.1rem;
+  }
+}
+
 .hero-greeting {
   font-family: var(--font-head);
   font-size: clamp(1.1rem, 2.5vw, 1.5rem);

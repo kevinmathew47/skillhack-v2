@@ -70,6 +70,12 @@ export default function HeroSection({ raisedAmount, goalAmount, pillFillWidth })
       </div>
 
 
+      {/* Stats bar at the bottom */}
+      <div className="hero-stats-bar">
+        <div className="hero-stats-item">TEDx Speaker</div>
+        <div className="hero-stats-item">Licensed Skydiver</div>
+        <div className="hero-stats-item">Paragliding Pilot</div>
+      </div>
     </section>
   );
 }
