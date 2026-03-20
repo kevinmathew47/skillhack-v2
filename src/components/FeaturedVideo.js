@@ -69,9 +69,6 @@ export default function FeaturedVideo() {
             playsInline
             preload="metadata"
           ></video>
-          <div className="featured-play-wrap" id="featuredPlayBtn">
-            <div className="featured-play-btn">&#9654;</div>
-          </div>
         </div>
       </section>
     </>

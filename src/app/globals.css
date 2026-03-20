@@ -1484,43 +1484,7 @@ img {
   transform: scale(1.02);
 }
 
-.featured-play-wrap {
-  position: absolute;
-  inset: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: rgba(0, 0, 0, 0.2);
-  transition: background var(--transition);
-}
 
-.featured-video-wrap.playing .featured-play-wrap {
-  opacity: 0;
-}
-
-.featured-video-wrap.playing:hover .featured-play-wrap {
-  opacity: 1;
-}
-
-.featured-play-btn {
-  width: 80px;
-  height: 80px;
-  background: rgba(255, 255, 255, 0.92);
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.9rem;
-  color: var(--black);
-  padding-left: 6px;
-  box-shadow: 0 6px 28px rgba(0, 0, 0, 0.35);
-  transition: all var(--transition);
-}
-
-.featured-video-wrap:hover .featured-play-btn {
-  background: var(--yellow);
-  transform: scale(1.08);
-}
 
 
 
