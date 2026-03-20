@@ -25,6 +25,9 @@ export const metadata = {
   title: "Syam Kumar – A Life Above Limits",
   description:
     "From 16 surgeries to setting a world record — support Syam Kumar in becoming the first person without a leg to skydive from 45,000 feet.",
+  icons: {
+    icon: "/images/logo.jpg",
+  },
 };
 
 export default function RootLayout({ children }) {
