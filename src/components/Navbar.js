@@ -44,7 +44,14 @@ export default function Navbar() {
           <li><Link href={getSectionHref("#gallery")}>Gallery</Link></li>
           <li><Link href={getSectionHref("#news")}>News</Link></li>
         </ul>
-        <Link href="/fund" className="btn-fund nav-cta">Fuel my dream</Link>
+        <a 
+          href="https://milaap.org/fundraisers/support-syam-kumar-s-s?utm_source=syamkumar-site" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="btn-fund nav-cta"
+        >
+          Fuel my dream
+        </a>
         <button
           className="hamburger"
           id="hamburger"
@@ -66,7 +73,17 @@ export default function Navbar() {
           <li><Link href={getSectionHref("#mission")} onClick={closeMenu}>Mission</Link></li>
           <li><Link href={getSectionHref("#gallery")} onClick={closeMenu}>Gallery</Link></li>
           <li><Link href={getSectionHref("#news")} onClick={closeMenu}>News</Link></li>
-          <li><Link href="/fund" className="btn-fund" onClick={closeMenu}>Fuel my dream</Link></li>
+          <li>
+            <a 
+              href="https://milaap.org/fundraisers/support-syam-kumar-s-s?utm_source=syamkumar-site" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="btn-fund" 
+              onClick={closeMenu}
+            >
+              Fuel my dream
+            </a>
+          </li>
         </ul>
       </div>
     </header>

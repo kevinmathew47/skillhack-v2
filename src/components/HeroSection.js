@@ -57,7 +57,14 @@ export default function HeroSection({ raisedAmount, goalAmount, pillFillWidth })
           I want it to inspire millions of people to rethink their limits.
         </p>
         <div className="hero-btns-group">
-          <Link href="/fund" className="btn-fund hero-btn">Fuel my dream</Link>
+          <a 
+            href="https://milaap.org/fundraisers/support-syam-kumar-s-s?utm_source=syamkumar-site" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="btn-fund hero-btn"
+          >
+            Fuel my dream
+          </a>
           <Link href="/learn" className="btn-outline-dark hero-btn-secondary">Learn</Link>
         </div>
       </div>

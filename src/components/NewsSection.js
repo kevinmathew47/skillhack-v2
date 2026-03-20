@@ -43,7 +43,13 @@ export default function NewsSection() {
         <Link href="/news">
           <button className="btn-fund">view more</button>
         </Link>
-        <button className="btn-outline-dark" style={{ borderColor: 'var(--yellow)' }}>Fuel my dream</button>
+        <a 
+          href="https://milaap.org/fundraisers/support-syam-kumar-s-s?utm_source=syamkumar-site" 
+          target="_blank" 
+          rel="noopener noreferrer"
+        >
+          <button className="btn-outline-dark" style={{ borderColor: 'var(--yellow)' }}>Fuel my dream</button>
+        </a>
       </div>
     </section>
   );

@@ -17,7 +17,14 @@ export default function FundCTA({ raisedText, goalText, fillWidth, supportersCou
             <span>{goalText}</span>
           </div>
         </div>
-        <Link href="/fund" className="btn-fund fund-btn">Fuel my dream</Link>
+        <a 
+          href="https://milaap.org/fundraisers/support-syam-kumar-s-s?utm_source=syamkumar-site" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="btn-fund fund-btn"
+        >
+          Fuel my dream
+        </a>
       </div>
     </section>
   );

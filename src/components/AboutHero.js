@@ -33,9 +33,14 @@ export default function AboutHero() {
             This is what happens when you refuse the ceiling.
           </p>
 
-          <Link href="/fund" className="btn-fund about-hero-btn">
+          <a 
+            href="https://milaap.org/fundraisers/support-syam-kumar-s-s?utm_source=syamkumar-site" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="btn-fund about-hero-btn"
+          >
             Fuel my dream
-          </Link>
+          </a>
         </div>
 
 

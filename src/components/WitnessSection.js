@@ -30,7 +30,14 @@ export default function WitnessSection() {
             </div>
           </div>
           <div className="witness-btns">
-            <Link href="/fund" className="btn-fund-dream-sm">Fuel my dream</Link>
+            <a 
+              href="https://milaap.org/fundraisers/support-syam-kumar-s-s?utm_source=syamkumar-site" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="btn-fund-dream-sm"
+            >
+              Fuel my dream
+            </a>
           </div>
         </div>
 
