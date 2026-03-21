@@ -15,7 +15,7 @@ export default function useMilaapFetch() {
   const [supporters, setSupporters] = useState(11);
   const [loading, setLoading] = useState(true);
 
-  const ADDED_AMOUNT = 143225;
+  const ADDED_AMOUNT = 144376;
   const displayRaised = raised + ADDED_AMOUNT;
   const pct = Math.min((displayRaised / GOAL) * 100, 100).toFixed(2);
 
